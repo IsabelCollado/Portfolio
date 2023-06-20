@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  background-color: antiquewhite;
+}
+.nav-header {
+  text-decoration: none;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 1.8rem;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  color: black;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+.ul-header {
+  font-size: 1.2rem;
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}

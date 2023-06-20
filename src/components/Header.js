@@ -1,25 +1,26 @@
 import { NavLink } from 'react-router-dom';
+import '../styles/layouts/Header.scss';
 
 const header = () => {
   return (
-    <header className="">
-      <nav className="">
-        <NavLink to={'/'}>
-          <h1>HOME</h1>
+    <header className="header">
+      <nav className="nav-container">
+        <NavLink to={'/'} className="nav-header">
+          <h1 className="title">HOME</h1>
         </NavLink>
-        <ul>
-          <li>
-            <NavLink to={'/aboutme'} className="">
+        <ul className="ul-header">
+          <li className="li-about">
+            <NavLink to={'/aboutme'} className="nav-link">
               About Me
             </NavLink>
           </li>
-          <li>
-            <NavLink to={'/projects'} className="">
+          <li className="li-proyects">
+            <NavLink to={'/projects'} className="nav-link">
               Proyects
             </NavLink>
           </li>
-          <li>
-            <NavLink to={'/contact'} className="">
+          <li className="li-contact">
+            <NavLink to={'/contact'} className="nav-link">
               Contact
             </NavLink>
           </li>

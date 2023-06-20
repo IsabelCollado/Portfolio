@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import Landing from './Landing';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import Contact from './Contact';
@@ -7,13 +8,16 @@ import '../styles/App.scss';
 
 const App = () => {
   return (
-    <div className="">
+    <div className="App">
       <Header />
-      <Routes>
-        <Route path="/aboutme" element={<AboutMe />} />
-        <Route path="/projects" element={<Proyects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/projects" element={<Proyects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
     </div>
   );
 };
