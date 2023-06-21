@@ -1,10 +1,11 @@
 .landing-container {
-  margin-right: 60%;
-}
-.landing-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  @media all and (min-width: 768px) {
+    margin-right: 50%;
+    -webkit-animation: scale-in-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      0.6s both;
+    animation: scale-in-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6s
+      both;
+  }
 }
 .img_logo {
   width: 100%;
@@ -13,7 +14,7 @@
 
 .hero__profession {
   align-items: center;
-  color: black;
+  color: white;
   display: flex;
   font-family: 'Space Mono', monospace;
   font-size: 1.4rem;
@@ -23,7 +24,21 @@
     0.6s both;
   animation: scale-in-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6s both;
   &--line {
-    border: 2px solid black;
+    border: 2px solid rgba(196, 156, 54, 0.838);
+  }
+}
+
+.border {
+  &__up {
+    margin-top: 2rem;
+    -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      0.5s both;
+    animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+  }
+  &__down {
+    -webkit-animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      0.5s both;
+    animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
   }
 }
 
