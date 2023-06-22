@@ -13,7 +13,7 @@ const Landing = () => {
         />
       </div>
       <div className="hero__profession--line border__up"></div>
-      <h2 className="hero__profession">Full Stack developer</h2>
+      <h2 className="hero__profession">Full-Stack Developer</h2>
       <div className="hero__profession--line border__down"></div>
     </section>
   );
