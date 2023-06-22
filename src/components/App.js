@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
-import Landing from './Landing';
-import Header from './Header';
-import About from './About';
-import Contact from './Contact';
-import Projects from './Projects';
+import Landing from './landing';
+import Header from './header';
+import About from './about';
+import Contact from './contact';
+import Projects from './projects';
 import '../styles/App.scss';
 
 const App = () => {

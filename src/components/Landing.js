@@ -1,5 +1,5 @@
-import logo from '../images/Logo.png';
-import '../styles/layouts/Landing.scss';
+import logo from '../images/logo.png';
+import '../styles/layouts/landing.scss';
 
 const Landing = () => {
   return (
