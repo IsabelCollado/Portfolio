@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import Landing from './Landing';
 import Header from './Header';
-import AboutMe from './AboutMe';
+import About from './About';
 import Contact from './Contact';
-import Proyects from './Proyects';
+import Projects from './Projects';
 import '../styles/App.scss';
 
 const App = () => {
@@ -13,8 +13,8 @@ const App = () => {
       <main>
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/aboutme" element={<AboutMe />} />
-          <Route path="/projects" element={<Proyects />} />
+          <Route path="/aboutMe" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
