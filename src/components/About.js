@@ -1,6 +1,5 @@
-/* eslint-disable jsx-a11y/alt-text */
-import foto from '../images/foto-Isa.png';
-import curriculum from '../docs/Curriculum_IsabelColladoHerrera.pdf';
+import foto from '../images/Foto Isa 3.jpg';
+import curriculum from '../docs/Curriculum Isabel Collado.pdf';
 
 const About = () => {
   return (
@@ -10,14 +9,14 @@ const About = () => {
         <div className="sectionAbout--div">
           <img
             className="sectionAbout--div__img"
-            src=""
+            src={foto}
             alt="Isa_image"
             title="Isa_image"
           />
         </div>
         <p className="sectionAbout--p">Administrative assistant turned.....</p>
         <div className="about__profession--line border__up"></div>
-        <h2 className="about__profession">Jr. Full-Stack Developer</h2>
+        <h2 className="about__profession">Jr.Full-Stack </h2>
         <div className="about__profession--line border__down"></div>
       </section>
 

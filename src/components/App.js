@@ -4,6 +4,7 @@ import Header from './header';
 import About from './about';
 import Contact from './contact';
 import Projects from './projects';
+import Footer from './footer';
 import '../styles/App.scss';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 };
