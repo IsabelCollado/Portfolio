@@ -1,4 +1,4 @@
-import foto from '../images/Foto Isa 3.jpg';
+import foto from '../images/Foto_Isa_3.jpg';
 import curriculum from '../docs/Curriculum Isabel Collado.pdf';
 
 const About = () => {
