@@ -3,12 +3,9 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
   padding-top: 1rem;
 
-  &--copy {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.8rem;
-  }
   &--copy {
     font-family: 'Space Mono', monospace;
     font-size: 0.8rem;

@@ -1,16 +1,16 @@
 [
     {
         "id": 1,
-    "priority": 1,
-    "name": "We run",
-    "type": "practice",
-    "tech": "CSS",
-    "languages": ["HTML", "CSS", "SASS"],
-    "grupal": false,
-    "visible": true,
-    "repoUrl": "https://github.com/LaiaRuizM/we-run-given-design",
-    "webUrl": "https://laiaruizm.github.io/we-run-given-design/",
-    "image": "https://i.postimg.cc/CLW9nFKx/we-run-given-design.png",
-    "descriptionEn": "Website which consists of laying out a webpage replicating the Zeplin's given design."
+        "priority": 1,
+        "name":"Web Sport",
+        "type": "practice",
+        "tech": "CSS",
+        "languages": ["HTML", "CSS", "SASS"],
+        "grupal": false,
+        "visible": true,
+        "repoUrl": "https://github.com/IsabelCollado/Web-Sport",
+        "webUrl": "https://isabelcollado.github.io/Web-Sport/",
+        "image": "https://i.postimg.cc/SQ2rdp7n/Web-Sport-2.png",
+        "descriptionEn": "Website which consists of laying out a webpage replicating the Zeplin's given design."
     }
 ]
