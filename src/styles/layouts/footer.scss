@@ -5,9 +5,15 @@
   justify-content: flex-end;
   align-items: center;
   padding-top: 1rem;
+  gap: 0.4rem;
+  position: relative;
 
   &--copy {
     font-family: 'Space Mono', monospace;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
+
+    @media all and (min-width: 768px) {
+      font-size: 1rem;
+    }
   }
 }

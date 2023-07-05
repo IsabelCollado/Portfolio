@@ -15,7 +15,7 @@ body {
 }
 .nav-header:hover {
   text-decoration: underline;
-  color: rgba(196, 156, 54, 0.838)
+  color: rgba(196, 156, 54, 0.838);
 }
 .nav-container {
   display: flex;
@@ -37,21 +37,20 @@ body {
   font-size: 1.5rem;
   font-family: 'Dancing Script', cursive;
   font-weight: bold;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 
   @media all and (min-width: 768px) {
     font-size: 2rem;
   }
-
 }
 .underline-link {
   text-decoration: none;
   color: black;
 }
 .underline-link:hover {
-    text-decoration: underline;
-    color: rgba(196, 156, 54, 0.838)
-  }
+  text-decoration: underline;
+  color: rgba(196, 156, 54, 0.838);
+}
 
 .ul-header {
   font-family: 'Dancing Script', cursive;
@@ -65,6 +64,4 @@ body {
     flex-direction: row;
     font-size: 2rem;
   }
-
 }
-
