@@ -9,26 +9,22 @@ const ProjectCard = ({
   languages,
 }) => {
   return (
-    <article className="projects--item">
-      <div className="projects--item__visible">
-        <div>
-          <img
-            src={image}
-            alt={name}
-            className="projects--item__visible__img"
-          />
+    <div className="projects-card">
+      <div className="projects-card--content">
+        <div className="projects-card--front">
+          <img src={image} alt={name} className="projects-card--front__img" />
         </div>
       </div>
-      <div className="projects--item__hidden">
-        <h3 className="projects--item__hidden__h3">{name.toUpperCase()}</h3>
-        <p className="projects--item__hidden__p">{description}</p>
-        <div className="projects--item__hidden__div">
+      <div className="projects-card--back">
+        <h3 className="projects-card--back__h3">{name.toUpperCase()}</h3>
+        <p className="projects-card--back__p">{description}</p>
+        <div className="projects-card--back__div">
           <a
             href={repoUrl}
             target="_blank"
             rel="noreferrer"
             title={`${name} code`}
-            className="projects--item__hidden__div__a"
+            className="projects-card--back__div__a"
           >
             <i className="fa-brands fa-github"></i>
           </a>
@@ -37,14 +33,14 @@ const ProjectCard = ({
             target="_blank"
             rel="noreferrer"
             title={`${name} website`}
-            className="projects--item__hidden__div__a"
+            className="projects-card--back__div__a"
           >
             <i className="fa-solid fa-display"></i>
           </a>
         </div>
         <span className="projects--span">{languages.join(' . ')}</span>
       </div>
-    </article>
+    </div>
   );
 };
 
