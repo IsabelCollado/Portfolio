@@ -1,6 +1,8 @@
 .section-Projects {
   width: 100%;
   font-family: 'Dancing Script', cursive;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   &--h1 {
     font-size: 1.5rem;
     color: rgb(86, 197, 177);
@@ -31,7 +33,7 @@
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-around;
-      gap: 2rem;
+      gap: 1rem;
     }
   }
 }
