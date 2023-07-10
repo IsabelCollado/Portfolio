@@ -4,10 +4,234 @@
   &--h1 {
     font-size: 1.5rem;
     color: rgb(86, 197, 177);
-    padding: 5px 10px 5px 10px;
+    padding: 10px 10px 5px 10px;
     @media all and (min-width: 768px) {
       padding: 10px 20px 10px 20px;
       font-size: 2.5rem;
     }
+    @media all and (min-width: 1024px) {
+      font-size: 3rem;
+    }
+  }
+  &--div {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  &--text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    @media all and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+
+    @media all and (min-width: 1024px) {
+      font-size: 2rem;
+    }
+  }
+  &--text1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  &--text2 {
+    padding-bottom: 0.5rem;
+  }
+
+  &--link {
+    text-decoration: none;
+  }
+
+  &--text3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  &--text4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &--divForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &--form {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  &--label {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+
+    @media all and (min-width: 768px) {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    @media all and (min-width: 1024px) {
+      margin-bottom: 0.5rem;
+      margin-top: 0.5rem;
+    }
+  }
+
+  &--input {
+    font-family: 'Space Mono', monospace;
+    color: black;
+
+    @media all and (min-width: 768px) {
+      max-width: 35rem;
+      height: 2rem;
+    }
+    @media all and (min-width: 1024px) {
+      max-width: 45rem;
+      height: 3rem;
+      font-size: 1.2rem;
+    }
+  }
+  &--textarea {
+    margin-bottom: 1rem;
+    font-family: 'Space Mono', monospace;
+    color: black;
+    @media all and (min-width: 768px) {
+      max-width: 35rem;
+      min-height: 4rem;
+    }
+    @media all and (min-width: 1024px) {
+      max-width: 45rem;
+      min-height: 5.5rem;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.sectionLink--icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.fab,
+.fa-github-alt {
+  color: rgb(86, 197, 177);
+  font-size: 1.3rem;
+  background: rgba(252, 248, 241, 0.8);
+  box-shadow: 2px 2px 5px rgb(239, 53, 84);
+  border-radius: 20px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  &:hover {
+    color: rgb(239, 53, 84);
+    box-shadow: 2px 2px 5px rgb(239, 53, 84);
+    transform: scale(1.05);
+  }
+  @media all and (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+  @media all and (min-width: 1024px) {
+    width: 50px;
+    height: 50px;
+    font-size: 1.8rem;
+    line-height: 50px;
+    border-radius: 30px;
+  }
+}
+.wrap {
+  padding-top: 3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  min-width: 7rem;
+  min-height: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4fd1c5;
+  background: linear-gradient(
+    90deg,
+    rgba(129, 230, 217, 1) 0%,
+    rgba(79, 209, 197, 1) 100%
+  );
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+
+  &::before {
+    content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #00ffcb;
+    box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  &:hover,
+  &:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+
+  &:hover::before,
+  &:focus::before {
+    opacity: 1;
+  }
+
+  &::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00ffcb;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    animation: none;
+    display: none;
+  }
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
   }
 }

@@ -64,6 +64,9 @@
   &--line {
     border: 2px solid rgba(196, 156, 54, 0.838);
   }
+  @media all and (min-width: 1024px) {
+    font-size: 2rem;
+  }
 }
 
 .border {
