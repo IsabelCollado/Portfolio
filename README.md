@@ -1,4 +1,4 @@
-<div align="center" style="margin-center:8%">
+<div align="center" style="margin-center:8%" background-color="grey">
  <img src="./src/images/Logo.png" alt="Isabel" width="280" height="280"/>
 </div>
 
