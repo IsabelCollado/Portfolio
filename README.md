@@ -1,13 +1,13 @@
-<div align="center" style="margin-center:8%">
- <img src="./src/images/logo.png" alt="Isabel" width="280" height="280"/>
+<div align="center" style="margin-center:8%" background-color="grey">
+ <img src="./src/images/Logo.png" alt="Isabel" width="280" height="280"/>
 </div>
 
-# Isabel Collado 📖 | PORTFOLIO
+# Isabel Collado Herrera 📖 | PORTFOLIO
 
 - Hi there people! 🙋🏼‍♀️
 - My name is Isabel Collado Herrera and this is my **portfolio**.
 
--- About this project 📋--
+### About this project 📋
 
 - Here you can find a bit more information about me, all my projects, social networks, email or if you prefer, you can contact me using the form.
 
@@ -45,7 +45,9 @@ npm start
 
 - Adding a buttom with the translation in English and Spanish.
 
-## Authors ✒️
+## Authors ✒️  
+
+[IsabelCollado](https://www.github.com/IsabelCollado) 🌺
 
 If you want to contact me for any suggestion, doubt or contribution, don't hesitate to ask me!💬
 
@@ -53,4 +55,3 @@ If you want to contact me for any suggestion, doubt or contribution, don't hesit
 - Linkedin: [https://www.linkedin.com/in/isabel-collado-herrera/](https://www.linkedin.com/in/isabel-collado-herrera/)
 - GitHub: [https://github.com/IsabelCollado](https://github.com/IsabelCollado)
 
-- [IsabelCollado](https://www.github.com/IsabelCollado) 🌺
