@@ -119,5 +119,19 @@
     "image": "https://i.postimg.cc/dV37ncF0/project-cool-station.png",
     "descriptionEn": "This project is designed for the creation of business cards for each project and its authors. The cards are digitally created, stored in the library and can be shared..",
     "AdditionalDescription": "Can be shared through a link generated automatically by our website.This gives the users the opportunity to present their projects, share information about them and advertise them to a wide audience. Full-stack project."
+  },
+  {
+    "id": 9,
+    "priority": 3,
+    "name": "Portfolio",
+    "type": "personal project",
+    "tech": "ReactJS",
+    "languages": ["HTML", "CSS", "SASS", "JavaScript", "ReactJS"],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/IsabelCollado/Portfolio",
+    "webUrl": "https://isabelcollado.github.io/Portfolio/",
+    "image": "https://i.postimg.cc/hjyNfrYn/Portfolio.png",
+    "descriptionEn": "Personal project with information and data related to all the projects."
   }
 ]
