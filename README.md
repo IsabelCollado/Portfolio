@@ -45,7 +45,9 @@ npm start
 
 - Adding a buttom with the translation in English and Spanish.
 
-## Authors ✒️
+## Authors ✒️  
+
+[IsabelCollado](https://www.github.com/IsabelCollado) 🌺
 
 If you want to contact me for any suggestion, doubt or contribution, don't hesitate to ask me!💬
 
@@ -53,4 +55,3 @@ If you want to contact me for any suggestion, doubt or contribution, don't hesit
 - Linkedin: [https://www.linkedin.com/in/isabel-collado-herrera/](https://www.linkedin.com/in/isabel-collado-herrera/)
 - GitHub: [https://github.com/IsabelCollado](https://github.com/IsabelCollado)
 
-- [IsabelCollado](https://www.github.com/IsabelCollado) 🌺
