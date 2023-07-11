@@ -1,5 +1,5 @@
 <div align="center" style="margin-center:8%">
- <img src="./src/images/logo.png" alt="Isabel" width="280" height="280"/>
+ <img src="./src/images/Logo.png" alt="Isabel" width="280" height="280"/>
 </div>
 
 # Isabel Collado 📖 | PORTFOLIO
