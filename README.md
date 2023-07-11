@@ -2,7 +2,7 @@
  <img src="./src/images/Logo.png" alt="Isabel" width="280" height="280"/>
 </div>
 
-# Isabel Collado 📖 | PORTFOLIO
+# Isabel Collado Herrera 📖 | PORTFOLIO
 
 - Hi there people! 🙋🏼‍♀️
 - My name is Isabel Collado Herrera and this is my **portfolio**.
