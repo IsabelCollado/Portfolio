@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.98dcd7c0.css",
+    "main.css": "./static/css/main.8c42896c.css",
     "main.js": "./static/js/main.8ca0fc78.js",
     "static/media/Curriculum Isabel Collado.pdf": "./static/media/Curriculum Isabel Collado.47c6fd198a785edb18a7.pdf",
     "static/media/logo.png": "./static/media/logo.7d5edccb001c91d1fa2a.png",
     "static/media/Foto_Isa_3.jpg": "./static/media/Foto_Isa_3.af9ecb958a48128d27ad.jpg",
     "static/media/image_por_defecto.jpeg": "./static/media/image_por_defecto.b95fc7ffa9db178b97b9.jpeg",
     "index.html": "./index.html",
-    "main.98dcd7c0.css.map": "./static/css/main.98dcd7c0.css.map",
+    "main.8c42896c.css.map": "./static/css/main.8c42896c.css.map",
     "main.8ca0fc78.js.map": "./static/js/main.8ca0fc78.js.map"
   },
   "entrypoints": [
-    "static/css/main.98dcd7c0.css",
+    "static/css/main.8c42896c.css",
     "static/js/main.8ca0fc78.js"
   ]
 }
