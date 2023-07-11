@@ -7,7 +7,7 @@
 - Hi there people! 🙋🏼‍♀️
 - My name is Isabel Collado Herrera and this is my **portfolio**.
 
--- About this project 📋--
+### About this project 📋
 
 - Here you can find a bit more information about me, all my projects, social networks, email or if you prefer, you can contact me using the form.
 
