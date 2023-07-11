@@ -94,7 +94,7 @@ const contact = () => {
                 type="mail"
                 id="email"
                 name="email"
-                placeholder="Youre-mail@email.com"
+                placeholder="Your-email@email.com"
               />
               <label htmlFor="subject" className="sectionContact--label">
                 Message
@@ -105,8 +105,8 @@ const contact = () => {
                 name="subject"
                 placeholder="Write your own text.."
               />
-              <div className="wrap">
-                <input className="button" type="submit" value="Submit" />
+              <div class="wrap">
+                <button class="button">Submit</button>
               </div>
             </form>
           </div>
