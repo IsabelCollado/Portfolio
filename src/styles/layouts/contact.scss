@@ -20,17 +20,19 @@
     align-items: stretch;
   }
   &--text {
-    font-family: 'Caveat', cursive;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-
+    line-height: 1.5rem;
     @media all and (min-width: 768px) {
       font-size: 1.5rem;
+      line-height: 1.8rem;
     }
 
     @media all and (min-width: 1024px) {
       font-size: 2rem;
+      line-height: 2rem;
     }
   }
   &--text1 {
