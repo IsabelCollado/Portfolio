@@ -44,9 +44,11 @@ body {
 
   @media all and (min-width: 768px) {
     font-size: 1.7rem;
+    padding-left: 5rem;
   }
   @media all and (min-width: 1024px) {
     font-size: 2rem;
+    padding-left: 8rem;
   }
 }
 .underline-link {
