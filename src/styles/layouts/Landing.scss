@@ -17,30 +17,44 @@
     @media all and (min-width: 768px) {
       width: 50%;
       line-height: 1.8rem;
+      height: fit-content;
     }
     @media all and (min-width: 1024px) {
       width: 40%;
+      height: fit-content;
       line-height: 2rem;
       font-size: 1.8rem;
     }
   }
 }
-
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+.seccion-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 .landing-container {
   @media all and (min-width: 768px) {
-    //margin-right: 0.5%;
     -webkit-animation: scale-in-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)
       0.6s both;
     animation: scale-in-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6s
       both;
+    width: 400px;
   }
 
   @media all and (min-width: 1024px) {
-    //margin-right: 68%;
     -webkit-animation: scale-in-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)
       0.6s both;
     animation: scale-in-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6s
       both;
+    width: 400px;
   }
 }
 
@@ -55,6 +69,7 @@
 }
 
 .hero__profession {
+  height: fit-content;
   align-items: center;
   color: white;
   display: flex;
@@ -65,8 +80,10 @@
   -webkit-animation: scale-in-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     0.6s both;
   animation: scale-in-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6s both;
+
   &--line {
-    border: 2px solid rgba(196, 156, 54, 0.838);
+    height: 5px;
+    background-color: rgba(196, 156, 54, 0.838);
   }
   @media all and (min-width: 1024px) {
     font-size: 2rem;
@@ -75,7 +92,6 @@
 
 .border {
   &__up {
-    margin-top: 2rem;
     -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
       0.5s both;
     animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;

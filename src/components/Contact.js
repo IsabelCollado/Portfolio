@@ -105,8 +105,8 @@ const contact = () => {
                 name="subject"
                 placeholder="Write your own text.."
               />
-              <div class="wrap">
-                <button class="button">Submit</button>
+              <div className="wrap">
+                <button className="button">Submit</button>
               </div>
             </form>
           </div>

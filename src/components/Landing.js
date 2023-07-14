@@ -19,7 +19,7 @@ const Landing = () => {
           am a dog lover, especially the Rottweiler breed.
         </p>
       </section>
-      <section>
+      <section className="seccion-2">
         <div className="hero__profession--line border__up"></div>
         <h2 className="hero__profession">Full-Stack Developer</h2>
         <div className="hero__profession--line border__down"></div>

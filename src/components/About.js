@@ -46,7 +46,7 @@ const About = () => {
             rel="noreferrer"
           >
             <span className="articleAbout--a__span">Curriculum </span>
-            <i class="fa-regular fa-file-pdf"></i>
+            <i className="fa-regular fa-file-pdf"></i>
           </a>
         </div>
       </article>
