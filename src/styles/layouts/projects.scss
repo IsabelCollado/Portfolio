@@ -1,12 +1,12 @@
 .section-Projects {
   width: 100%;
+  height: fit-content;
   font-family: 'Dancing Script', cursive;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+
   &--h1 {
     font-size: 1.5rem;
     color: rgb(86, 197, 177);
-    padding: 5px 10px 5px 10px;
+    //padding: 5px 10px 5px 10px;
 
     @media all and (min-width: 768px) {
       padding: 10px 20px 10px 20px;
@@ -15,11 +15,12 @@
   }
 }
 .projects {
-  min-height: 80vh;
   width: 100%;
+  height: fit-content;
 
   &--list {
-    padding: 1rem;
+    width: 100%;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -29,12 +30,13 @@
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-around;
+      gap: 2rem;
     }
     @media all and (min-width: 1024px) {
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-around;
-      gap: 1rem;
+      gap: 2rem;
     }
   }
 }

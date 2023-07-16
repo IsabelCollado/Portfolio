@@ -1,5 +1,6 @@
 import foto from '../images/Foto_Isa_3.jpg';
-import curriculum from '../docs/Curriculum Isabel Collado.pdf';
+import spanishCurriculum from '../docs/Curriculum-Isabel-Collado.pdf';
+import englishCurriculum from '../docs/Curriculum-english-Isabel-Collado.pdf';
 
 const About = () => {
   return (
@@ -39,16 +40,29 @@ const About = () => {
           have good time management and leadership skills.
         </p>
       </article>
-      <div className="bottonAbout">
-        <a
-          className="bottonAbout--a"
-          href={curriculum}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className="bottonAbout--a__span">Curriculum </span>
-          <i className="fa-regular fa-file-pdf"></i>
-        </a>
+      <div className="bottonCv">
+        <div className="bottonAbout">
+          <a
+            className="bottonAbout--a"
+            href={spanishCurriculum}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="bottonAbout--a__span">Spanish Curriculum</span>
+            <i className="fa-regular fa-file-pdf"></i>
+          </a>
+        </div>
+        <div className="bottonAbout_2">
+          <a
+            className="bottonAbout--a"
+            href={englishCurriculum}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="bottonAbout--a__span">English Curriculum</span>
+            <i className="fa-regular fa-file-pdf"></i>
+          </a>
+        </div>
       </div>
     </>
   );

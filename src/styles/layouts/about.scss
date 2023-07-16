@@ -13,9 +13,10 @@
     }
   }
   &--div {
+    height: fit-content;
     display: flex;
     justify-content: center;
-    padding-top: 1.5rem;
+    padding: 1.5rem;
     &__img {
       width: 80px;
       height: 110px;
@@ -30,52 +31,100 @@
   &--p {
     font-family: 'Nunito Sans', sans-serif;
     line-height: 1.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 20px 10px;
     align-content: center;
     justify-content: center;
 
     @media all and (min-width: 768px) {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
   }
 }
 .articleAbout {
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5px 10px 5px 10px;
+  padding: 0 10px 5px 10px;
+  gap: 20px;
 
   @media all and (min-width: 768px) {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   &--pAcc {
     text-shadow: 5px 5px 5px rgb(153, 151, 151);
   }
 
   &--p {
-    padding-top: 20px;
     align-content: center;
     justify-content: center;
     align-items: center;
   }
 }
-.bottonAbout {
+.bottonCv {
+  width: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+.bottonAbout {
+  width: 7rem;
+  height: fit-content;
+  box-shadow: 2px 6px 8px 2px hwb(0 84% 10% / 0.4);
+  padding: 5px 0px 5px 5px;
+  border-radius: 10px;
+  background-color: azure;
+  @media all and (min-width: 768px) {
+    width: 8rem;
+    height: fit-content;
+  }
+
+  &--a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px 5px 0px;
+
+    @media all and (min-width: 768px) {
+      text-align: center;
+      align-items: center;
+    }
+    &__span {
+      color: rgb(86, 197, 177);
+    }
+  }
+}
+.bottonAbout_2 {
+  width: 7rem;
+  height: fit-content;
   box-shadow: 2px 6px 8px 2px hwb(0 84% 10% / 0.4);
   padding: 5px 0px 5px 5px;
   border-radius: 10px;
   background-color: azure;
 
   &--a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     text-decoration: none;
