@@ -1,6 +1,7 @@
 .sectionAbout {
+  width: 100%;
+  height: fit-content;
   font-family: 'Dancing Script', cursive;
-  padding-top: 1.6rem;
 
   &--h1 {
     font-size: 1.5rem;
@@ -33,12 +34,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px 10px 5px 10px;
-    padding-top: 20px;
+    padding: 10px 10px 10px 10px;
     align-content: center;
     justify-content: center;
-    align-items: center;
-    margin: 0 20px 0 25px;
 
     @media all and (min-width: 768px) {
       font-size: 1.5rem;
@@ -58,7 +56,6 @@
     font-size: 1.5rem;
   }
   &--pAcc {
-    margin-top: 10px;
     text-shadow: 5px 5px 5px rgb(153, 151, 151);
   }
 
@@ -67,18 +64,17 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 0 20px 0 25px;
   }
-  &--div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 2px 6px 8px 2px hwb(0 84% 10% / 0.4);
-    margin: 3.5rem 0 0 0;
-    padding: 5px 0px 5px 5px;
-    border-radius: 10px;
-    background-color: azure;
-  }
+}
+.bottonAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 6px 8px 2px hwb(0 84% 10% / 0.4);
+  padding: 5px 0px 5px 5px;
+  border-radius: 10px;
+  background-color: azure;
+
   &--a {
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
@@ -102,13 +98,13 @@
   display: flex;
   font-family: 'Space Mono', monospace;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: bold;
   justify-content: center;
   -webkit-animation: scale-in-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     0.6s both;
   animation: scale-in-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6s both;
   &--line {
-    height: 5px;
+    height: 4px;
     background-color: rgba(196, 156, 54, 0.838);
   }
 }

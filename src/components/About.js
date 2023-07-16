@@ -38,18 +38,18 @@ const About = () => {
           I consider myself an extrovert, resolute and very organised person. I
           have good time management and leadership skills.
         </p>
-        <div className="articleAbout--div">
-          <a
-            className="articleAbout--a"
-            href={curriculum}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span className="articleAbout--a__span">Curriculum </span>
-            <i className="fa-regular fa-file-pdf"></i>
-          </a>
-        </div>
       </article>
+      <div className="bottonAbout">
+        <a
+          className="bottonAbout--a"
+          href={curriculum}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span className="bottonAbout--a__span">Curriculum </span>
+          <i className="fa-regular fa-file-pdf"></i>
+        </a>
+      </div>
     </>
   );
 };
