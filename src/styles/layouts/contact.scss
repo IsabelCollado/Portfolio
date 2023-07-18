@@ -42,7 +42,7 @@
     }
   }
 
-  &--link {
+  &--email {
     text-decoration: none;
     @media all and (min-width: 768px) {
       display: flex;
@@ -141,12 +141,23 @@
   }
 }
 
-.sectionLink--icons {
+.sectionLink {
   width: 100%;
-  height: fit-content;
-  display: flex;
-  flex-direction: row;
+
+  &--div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &--a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
+
 .fab,
 .fa-github-alt {
   color: rgb(86, 197, 177);

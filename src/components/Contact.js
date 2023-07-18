@@ -20,7 +20,7 @@ const contact = () => {
           </p>
           <p className="sectionContact--text2">You can contact me by email:</p>
           <a
-            className="sectionContact--link"
+            className="sectionContact--email"
             href="mailto:icolladoherrera@gmail.com"
           >
             icolladoherrera@gmail.com
@@ -28,35 +28,37 @@ const contact = () => {
           <p className="sectionContact--text3">
             Or through the following links:
           </p>
-          <div className="sectionLink--icons">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="sectionContact--link"
-              href="https://github.com/IsabelCollado"
-              alt="GitHub Isabel Collado"
-            >
-              <i className="fab fa-github-alt"></i>
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="sectionContact--link"
-              href="https://www.linkedin.com/in/isabel-collado-herrera/"
-              alt="Linkedin Isabel Collado"
-            >
-              <i className="fab fa-linkedin-in"></i>
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="sectionContact--link"
-              href="https://www.instagram.com/isaquini/"
-              alt="Instagram Isabel Collado"
-            >
-              <i className="fab fa-instagram-square"></i>
-            </a>
-          </div>
+          <section className="sectionLink">
+            <div className="sectionLink--div">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="sectionLink--a"
+                href="https://github.com/IsabelCollado"
+                alt="GitHub Isabel Collado"
+              >
+                <i className="fab fa-github-alt"></i>
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="sectionLink--a"
+                href="https://www.linkedin.com/in/isabel-collado-herrera/"
+                alt="Linkedin Isabel Collado"
+              >
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="sectionLink--a"
+                href="https://www.instagram.com/isaquini/"
+                alt="Instagram Isabel Collado"
+              >
+                <i className="fab fa-instagram-square"></i>
+              </a>
+            </div>
+          </section>
           <p className="sectionContact--text4">
             Alternatively, you can fill in this form:
           </p>
