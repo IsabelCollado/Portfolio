@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
-import Landing from './landing';
 import Header from './header';
+import Landing from './landing';
 import About from './about';
-import Contact from './contact';
+import Contact from './Contact';
 import Projects from './projects';
 import projectCardData from '../data/projects.json';
 import Footer from './footer';
