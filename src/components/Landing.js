@@ -16,7 +16,7 @@ const Landing = () => {
         <p className="landing-section--p">
           I consider myself a strong, hard-working and persevering person like
           the earth element. I am thorough in everything I set out to do. I am a
-          dog lover, especially the Rottweiler breed.
+          dog lover with a weak spot for Rottweilers.
         </p>
       </section>
       <section className="seccion-2">

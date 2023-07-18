@@ -28,12 +28,12 @@ const About = () => {
         </p>
 
         <p className="articleAbout--p">
-          After exploring the world of web programming and seeing that I loved
-          it, I decided to take the Web Programming Bootcamp at Adalab, where
-          they have given me the opportunity to obtain the necessary knowledge
-          to follow a dream of becoming a great programmer and continue
-          discovering this exciting world, where you never stop learning new
-          things.
+          After exploring the world of web programming on my own and seeing that
+          I loved it, I decided to take the Web Programming Bootcamp at Adalab,
+          where they have given me the opportunity to obtain the necessary
+          knowledge to follow a dream of becoming a great programmer and
+          continue discovering this exciting world, where you never stop
+          learning.
         </p>
         <p className="articleAbout--p">
           I consider myself an extrovert, resolute and very organised person. I

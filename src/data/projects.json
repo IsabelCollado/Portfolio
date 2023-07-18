@@ -11,7 +11,7 @@
     "repoUrl": "https://github.com/IsabelCollado/Web-Sport",
     "webUrl": "https://isabelcollado.github.io/Web-Sport/",
     "image": "https://i.postimg.cc/SQ2rdp7n/Web-Sport-2.png",
-    "descriptionEn": "Website which consists of laying out a webpage replicating the Zeplin's given design."
+    "descriptionEn": "Website which consists in laying out a webpage replicating a specific design given to us through Zeplin."
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
     "repoUrl": "https://github.com/IsabelCollado/Web-Contacto",
     "webUrl": "https://isabelcollado.github.io/Web-Contacto/",
     "image": "https://i.postimg.cc/9f7mkxKZ/screencapture-isabelcollado-gith.png",
-    "descriptionEn": "Group project that consisted of developing a responsive website that would serve as a presentation of our group from a given design. The homepage features a user-friendly design and complete with links to various sections of the site itself."
+    "descriptionEn": "Group project that consisted of developing a responsive website that would serve as a presentation of our group, replicated from a given design. The homepage features a user-friendly interface, complete with links to the various sections of the site itself."
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
     "repoUrl": "https://github.com/IsabelCollado/Adivina-el-Numero",
     "webUrl": "https://isabelcollado.github.io/Adivina-el-Numero/",
     "image": "https://i.postimg.cc/Hsg68VTg/Image-adivina-el-numero.png",
-    "descriptionEn": "Web game where you have to guess the randomly generated number based on some clues while playing.."
+    "descriptionEn": "Web game where you have to guess the randomly generated number based on the clues given while playing."
   },
   {
     "id": 4,
@@ -81,7 +81,7 @@
     "repoUrl": "https://github.com/IsabelCollado/Friends-phrases",
     "webUrl": "https://isabelcollado.github.io/Friends-phrases/",
     "image": "https://i.postimg.cc/xCJS8gLg/Friend-s-phrases.png",
-    "descriptionEn": "Website which has Friend's quotes which you can filter by character or by sentence. In addition, users can add new phrases and its characters."
+    "descriptionEn": "Website which includes a selection of quotes from the series Friends. The application allows you to filter them by character and/or look them up using a memorable word or phrase. In addition, users can add new phrases and their characters."
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
     "repoUrl": "https://github.com/IsabelCollado/Harry-Potter",
     "webUrl": "https://isabelcollado.github.io/Harry-Potter/",
     "image": "https://i.postimg.cc/W3P7q1kK/imagen-proyecto-react.png",
-    "descriptionEn": "Website to search for characters from the Harry Potter Saga. Users can filter according to different criteria and can also view the details page of each character.."
+    "descriptionEn": "Website that invites you to look for characters from the Harry Potter Saga. Users can filter according to different criteria and can also view the details page of each character."
   },
   {
     "id": 8,
@@ -118,7 +118,7 @@
     "webUrl": "https://isabelcollado.github.io/Cool-Projects-Station-1/",
     "image": "https://i.postimg.cc/dV37ncF0/project-cool-station.png",
     "descriptionEn": "This project is designed for the creation of business cards for each project and its authors. The cards are digitally created, stored in the library and can be shared..",
-    "AdditionalDescription": "Can be shared through a link generated automatically by our website.This gives the users the opportunity to present their projects, share information about them and advertise them to a wide audience. Full-stack project."
+    "AdditionalDescription": "Can be shared through a link generated automatically by our website.This gives the users the opportunity to present their projects, share information about them and advertise themselves to a wide audience. Full-stack project."
   },
   {
     "id": 9,
@@ -132,6 +132,6 @@
     "repoUrl": "https://github.com/IsabelCollado/Portfolio",
     "webUrl": "https://isabelcollado.github.io/Portfolio/",
     "image": "https://i.postimg.cc/hjyNfrYn/Portfolio.png",
-    "descriptionEn": "Personal project with information and data related to all the projects."
+    "descriptionEn": "Personal project with information and data related to my ongoing journey in the world of web development through all the projects I have been working on."
   }
 ]

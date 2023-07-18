@@ -58,7 +58,7 @@ const contact = () => {
             </a>
           </div>
           <p className="sectionContact--text4">
-            Or if you prefer, fill in this form:
+            Alternatively, you can fill in this form:
           </p>
           <div className="sectionContact--divForm">
             <form
