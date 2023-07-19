@@ -1,7 +1,9 @@
 import logo from '../images/logo.png';
 import '../styles/layouts/landing.scss';
+import { useTranslation } from 'react-i18next';
 
 const Landing = () => {
+  const [t] = useTranslation('landing');
   return (
     <>
       <section className="landing-section">
@@ -13,11 +15,7 @@ const Landing = () => {
             title="logo_Isa"
           />
         </div>
-        <p className="landing-section--p">
-          I consider myself a strong, hard-working and persevering person like
-          the earth element. I am thorough in everything I set out to do. I am a
-          dog lover with a weak spot for Rottweilers.
-        </p>
+        <p className="landing-section--p">{t('description')}</p>
       </section>
       <section className="seccion-2">
         <div className="hero__profession--line border__up"></div>
