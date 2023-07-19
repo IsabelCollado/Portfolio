@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import LanguageButtons from './languageButtons';
 import '../styles/layouts/header.scss';
 
 const Header = () => {
@@ -26,6 +27,9 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <div className="div-lenguage">
+        <LanguageButtons />
+      </div>
     </header>
   );
 };

@@ -12,6 +12,7 @@ const App = () => {
   return (
     <div className="container">
       <Header />
+
       <main className="main-container">
         <Routes>
           <Route path="/" element={<Landing />} />
