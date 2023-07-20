@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/App';
+import './config/i18next-config.js';
 
 import { HashRouter } from 'react-router-dom';
 
