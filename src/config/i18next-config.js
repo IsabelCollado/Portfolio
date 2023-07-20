@@ -4,7 +4,10 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import aboutmeEN from '../languages/en/about.json';
 import headerEN from '../languages/en/header.json';
 import landingEN from '../languages/en/landing.json';
-import aboutmeES from '../languages/es/';
+import aboutmeES from '../languages/es/about.json';
+import headerES from '../languages/es/header.json';
+import landingES from '../languages/es/landing.json';
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
