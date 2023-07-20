@@ -41,9 +41,6 @@ npm install
 npm start
 ```
 
-### Further implementations
-
-- Adding a buttom with the translation in English and Spanish.
 
 ## Authors ✒️  
 
