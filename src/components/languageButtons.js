@@ -6,12 +6,12 @@ const LanguageButtons = () => {
 
   const languages = [
     {
-      code: 'es',
-      name: 'ES',
-    },
-    {
       code: 'en',
       name: 'EN',
+    },
+    {
+      code: 'es',
+      name: 'ES',
     },
   ];
   return (
