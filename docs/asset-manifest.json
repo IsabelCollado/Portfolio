@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "./static/css/main.73021eb5.css",
-    "main.js": "./static/js/main.83e6fe9c.js",
+    "main.js": "./static/js/main.817eb241.js",
+    "static/media/Curriculum-Isabel-Collado.pdf": "./static/media/Curriculum-Isabel-Collado.65ce9eb783d1a1d2bd25.pdf",
     "static/media/Curriculum-english-Isabel-Collado.pdf": "./static/media/Curriculum-english-Isabel-Collado.07ed52e19dd24b5f59ab.pdf",
-    "static/media/Curriculum-Isabel-Collado.pdf": "./static/media/Curriculum-Isabel-Collado.47c6fd198a785edb18a7.pdf",
     "static/media/logo.png": "./static/media/logo.7d5edccb001c91d1fa2a.png",
     "static/media/Foto_Isa_3.jpg": "./static/media/Foto_Isa_3.af9ecb958a48128d27ad.jpg",
     "static/media/image_por_defecto.jpeg": "./static/media/image_por_defecto.b95fc7ffa9db178b97b9.jpeg",
     "index.html": "./index.html",
     "main.73021eb5.css.map": "./static/css/main.73021eb5.css.map",
-    "main.83e6fe9c.js.map": "./static/js/main.83e6fe9c.js.map"
+    "main.817eb241.js.map": "./static/js/main.817eb241.js.map"
   },
   "entrypoints": [
     "static/css/main.73021eb5.css",
-    "static/js/main.83e6fe9c.js"
+    "static/js/main.817eb241.js"
   ]
 }
