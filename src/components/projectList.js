@@ -7,12 +7,12 @@ import '../styles/layouts/projects.scss';
 const ProjectList = () => {
   const { t } = useTranslation('projects');
   return (
-    <ul className="projects">
+    <ul className="section-Projects--ul">
       {t('projectsinfo', { returnObjects: true }).map((eachProject) => (
         <React.Fragment key={eachProject.id}>
           {eachProject.visible && (
             <li
-              className="projects--list"
+              className="section-Projects--list"
               key={eachProject.id}
               id={eachProject.id}
             >

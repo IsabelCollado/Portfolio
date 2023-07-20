@@ -29,9 +29,10 @@
     transform: translateX(100%);
 
     &__h3 {
+      font-family: 'Space Mono', monospace;
       height: fit-content;
       padding-top: 0.5rem;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       font-weight: bold;
       color: rgb(94, 91, 91);
       color: rgb(86, 197, 177);
@@ -62,6 +63,7 @@
       }
     }
     .projects--span {
+      font-family: 'Space Mono', monospace;
       height: fit-content;
       padding-top: 0.5rem;
       font-size: 14px;
