@@ -16,7 +16,7 @@
   {
     "id": 2,
     "priority": 2,
-    "name": "kISI || Web Contacto",
+    "name": "kISI || Web Contact",
     "type": "practice",
     "tech": "CSS",
     "languages": ["HTML", "CSS", "SASS"],
@@ -58,7 +58,7 @@
   {
     "id": 5,
     "priority": 3,
-    "name": "Buscador de Cocktails",
+    "name": "Cocktail Finder",
     "type": "practice",
     "tech": "ReactJS",
     "languages": ["HTML", "CSS", "SASS", "JavaScript", "ReactJS"],

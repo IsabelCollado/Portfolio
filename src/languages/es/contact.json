@@ -1,0 +1,16 @@
+{
+  "title": "Contacto",
+  "hero": "¡Hablemos! ",
+  "text1": "Actualmente estoy buscando trabajo. Me encantaría unirme a un proyecto que me permita ampliar y perfeccionar mis habilidades como desarrollador y ayudar al equipo a desarrollar su producto.",
+  "text2": "Puede ponerse en contacto conmigo por correo electrónico:",
+  "text3": "O a través de los siguientes enlaces:",
+  "text4": "También puede rellenar este formulario:",
+  "form_label1": "Nombre",
+  "form_label2": "Apellidos",
+  "form_label4": "Mensaje",
+  "button": "Enviar",
+  "textarea": "Escriba su propio texto...",
+  "placeholdername": "Nombre...",
+  "placeholderlastname": "Apellidos...",
+  "placeholderemail": "Tu-email@email.com"
+}

@@ -1,29 +1,16 @@
-import defaultImage from '../images/image_por_defecto.jpeg';
-import ProjectCard from './projectCard';
+import ProjectList from './projectList';
 import '../styles/layouts/projects.scss';
+import { useTranslation } from 'react-i18next';
 
 const Projects = ({ projectCardData }) => {
-  const dataCard = projectCardData.map((eachProject) => {
-    return (
-      <ProjectCard
-        key={eachProject.id}
-        name={eachProject.name}
-        repoUrl={eachProject.repoUrl}
-        webUrl={eachProject.webUrl}
-        description={eachProject.descriptionEn}
-        image={eachProject.image === '' ? defaultImage : eachProject.image}
-        languages={eachProject.languages}
-      />
-    );
-  });
+  const [t] = useTranslation('projects');
+
   return (
     <>
       <section className="section-Projects">
-        <h1 className="section-Projects--h1">Projects</h1>
+        <h1 className="section-Projects--h1"> {t('title')}</h1>
+        <ProjectList />
       </section>
-      <div className="projects">
-        <ul className="projects--list">{dataCard}</ul>
-      </div>
     </>
   );
 };

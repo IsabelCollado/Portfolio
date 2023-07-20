@@ -6,8 +6,7 @@
   &--h1 {
     font-size: 1.5rem;
     color: rgb(86, 197, 177);
-    //padding: 5px 10px 5px 10px;
-
+    padding: 0 10px 10px 10px;
     @media all and (min-width: 768px) {
       padding: 10px 20px 10px 20px;
       font-size: 2.5rem;
@@ -17,26 +16,23 @@
 .projects {
   width: 100%;
   height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  gap: 25px;
 
-  &--list {
-    width: 100%;
-    height: fit-content;
+  @media all and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    gap: 1rem;
-    @media all and (min-width: 768px) {
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: space-around;
-      gap: 2rem;
-    }
-    @media all and (min-width: 1024px) {
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: space-around;
-      gap: 2rem;
-    }
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  @media all and (min-width: 1024px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
   }
 }

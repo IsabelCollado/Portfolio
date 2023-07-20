@@ -1,0 +1,16 @@
+{
+  "title": "Contact",
+  "hero": "Let's talk! ",
+  "text1": "I am currently looking for a job. I would love to join a project that allows me to expand and sharpen my skills as a developer and help the team to develop their product.",
+  "text2": "You can contact me by email:",
+  "text3": "Or through the following links:",
+  "text4": "Alternatively, you can fill in this form:",
+  "form_label1": "Name",
+  "form_label2": "Lastname",
+  "form_label4": "Message",
+  "button": "Submit",
+  "textarea": "Write your own text...",
+  "placeholdername": "Name...",
+  "placeholderlastname": "Lastname...",
+  "placeholderemail": "Your-email@email.com"
+}
