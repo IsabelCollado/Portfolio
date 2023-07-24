@@ -1,5 +1,4 @@
 import ProjectList from './projectList';
-import '../styles/layouts/projects.scss';
 import { useTranslation } from 'react-i18next';
 
 const Projects = ({ projectCardData }) => {

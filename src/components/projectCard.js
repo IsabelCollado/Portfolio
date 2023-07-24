@@ -1,5 +1,3 @@
-import '../styles/layouts/project-card.scss';
-
 const ProjectCard = ({
   name,
   repoUrl,

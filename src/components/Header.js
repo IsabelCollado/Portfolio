@@ -1,6 +1,5 @@
 import { NavLink } from 'react-router-dom';
 import LanguageButtons from './languageButtons';
-import '../styles/layouts/header.scss';
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {

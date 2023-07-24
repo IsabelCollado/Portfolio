@@ -1,4 +1,3 @@
-import '../styles/layouts/contact.scss';
 import { useTranslation } from 'react-i18next';
 
 const contact = () => {

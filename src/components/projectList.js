@@ -2,7 +2,6 @@ import ProjectCard from './projectCard';
 import defaultImage from '../images/image_por_defecto.jpeg';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import '../styles/layouts/projects.scss';
 
 const ProjectList = () => {
   const { t } = useTranslation('projects');

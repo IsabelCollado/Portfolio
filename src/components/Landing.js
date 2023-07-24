@@ -1,5 +1,4 @@
 import logo from '../images/logo.png';
-import '../styles/layouts/landing.scss';
 import { useTranslation } from 'react-i18next';
 
 const Landing = () => {
