@@ -143,10 +143,12 @@
 
 .sectionLink {
   width: 100%;
+  height: fit-content;
 
   &--div {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
 
   &--a {
@@ -183,7 +185,8 @@
 }
 .wrap {
   padding-top: 3rem;
-  height: 100%;
+  padding-bottom: 2rem;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
