@@ -1,5 +1,5 @@
 import foto from '../images/Foto_Isa_3.jpg';
-import spanishCurriculum from '../docs/CV-Actual-2024.pdf';
+import spanishCurriculum from '../docs/CV-Actual-2024 .pdf';
 import englishCurriculum from '../docs/CV-Actual-2024-English.pdf';
 import { useTranslation } from 'react-i18next';
 

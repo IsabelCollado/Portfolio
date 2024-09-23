@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
-import Header from './header';
-import Landing from './landing';
-import About from './about';
-import Contact from './contact';
-import Projects from './Projects';
-import Footer from './footer';
+import Header from './Header.js';
+import Landing from './Landing.js';
+import About from './About.js';
+import Contact from './Contact.js';
+import Projects from './Projects.js';
+import Footer from './footer.js';
 import '../styles/App.scss';
 
 const App = () => {
