@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a525689d.css",
+    "main.js": "./static/js/main.a8111094.js",
+    "static/media/Logo.png": "./static/media/Logo.7d5edccb001c91d1fa2a.png",
+    "static/media/CV-Actual-2024 .pdf": "./static/media/CV-Actual-2024 .f776e40a50d1d086bdd4.pdf",
+    "static/media/CV-Actual-2024-English.pdf": "./static/media/CV-Actual-2024-English.0f9e59031dacdfae5f62.pdf",
+    "static/media/Foto_Isa_3.jpg": "./static/media/Foto_Isa_3.af9ecb958a48128d27ad.jpg",
+    "static/media/image_por_defecto.jpeg": "./static/media/image_por_defecto.b95fc7ffa9db178b97b9.jpeg",
+    "index.html": "./index.html",
+    "main.a525689d.css.map": "./static/css/main.a525689d.css.map",
+    "main.a8111094.js.map": "./static/js/main.a8111094.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a525689d.css",
+    "static/js/main.a8111094.js"
+  ]
+}
